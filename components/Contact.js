@@ -4,6 +4,7 @@ import React from "react";
 const Contact = ({name, src, status}) => {
   return <div className="flex items-center space-x-2 py-2 pl-1 hover:bg-gray-200 rounded-l-xl cursor-pointer relative">
     <Image
+    alt={name}
     src={src}
     height={40}
     width={40}

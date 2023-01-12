@@ -13,6 +13,7 @@ const Sidebar = () => {
     <div className="flex items-center space-x-2 py-3 pl-4 hover:bg-gray-200 rounded-r-xl cursor-pointer">
         <Image 
         src={session?.user.image}
+        alt={session?.user.name}
         width="40"
         height="40"
         className="rounded-full cursor-pointer"

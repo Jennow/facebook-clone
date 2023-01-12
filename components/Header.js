@@ -16,6 +16,7 @@ const Header = () => {
     <div className="flex min-w-fit">
         <Image 
         src="/jenbook.png"
+        alt="Page Logo"
         width="40"
         height="40"
         ></Image>
@@ -34,6 +35,7 @@ const Header = () => {
     <div className="flex items-center justify-end min-w-fit space-x-2">
         <Image 
         src={session?.user.image}
+        alt={session?.user.name}
         width="40"
         height="40"
         className="rounded-full cursor-pointer"
